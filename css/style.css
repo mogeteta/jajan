@@ -33,11 +33,14 @@ h1,h2,h3 {
 }
 .set-img {
   display: flex;
-  width: 100%; 
+justify-content: space-between;
 }
 .set-img img {
   margin: 0;
   width: 100%;
+}
+.set-img li:last-child {
+  margin-left: 16px;
 }
 .set-desc {
   font-size: 12px;
@@ -58,10 +61,6 @@ ul {
 }
 a {
   text-decoration: none;
-}
-
-.set-img li:last-child {
-  margin-left: 16px;
 }
 article {
   margin-bottom: 16px;
@@ -158,3 +157,5 @@ footer p {
   background: #008000;
   color: #fff;
 }
+
+/*----------- smartphone -----------*/
