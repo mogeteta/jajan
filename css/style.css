@@ -35,14 +35,11 @@ h1,h2,h3 {
   display: flex;
   justify-content: space-between;
 }
-.set-img li {
-  flex: 1;
-}
 .set-img img {
   margin: 0;
   width: 100%;
 }
-.set-img li:last-child {
+.set-img img:last-child {
   margin-left: 16px;
 }
 .set-desc {
