@@ -33,7 +33,10 @@ h1,h2,h3 {
 }
 .set-img {
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
+}
+.set-img li {
+  flex: 1;
 }
 .set-img img {
   margin: 0;
