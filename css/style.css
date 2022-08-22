@@ -32,7 +32,8 @@ h1,h2,h3 {
   margin: 0;
 }
 .set-img {
-  display: flex; 
+  display: flex;
+  width: 100%; 
 }
 .set-img img {
   margin: 0;
