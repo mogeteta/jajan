@@ -96,7 +96,7 @@ header .container {
   max-width: 800px;
 }
 h1 {
-  width: 400px;
+  width: 100%;
   margin: 16px auto 24px;
 }
 header p {
