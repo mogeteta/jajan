@@ -80,17 +80,15 @@ article {
 .sangen-pai-about {
   margin-bottom: 36px;
 }
-
 /*----------- header -----------*/
 header {
-  position: fixed;
-  top: 0;
   width: 100%;
   text-align: center;
   background-color: #fff;
 }
 header .container {
   margin: 0 auto;
+  margin-top: 80px;
   padding: 4%;
   text-align: center;
   max-width: 800px;
@@ -102,12 +100,22 @@ h1 {
 header p {
   font-size: 12px;
 }
-header p + p {
+/* header p + p {
   margin-bottom: 24px;
+} */
+.gnavi.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 4%;
+  background: linear-gradient(to bottom, #fff,#fff, rgba(255, 255, 255, 0.1));
 }
 header ul {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 header ul li {
   flex-grow: 1;
@@ -124,15 +132,11 @@ header ul li a {
 header a:hover {
   opacity: .5;
 }
-}
 header ul li a:hover {
   opacity: 0.5;
 }
 
 /* ----------- main -----------*/
-main {
-  margin-top: 240px;
-}
 main .container {
   margin: 0 auto;
   padding: 4%;
@@ -216,8 +220,8 @@ small {
 
 /*----------- smartphone -----------*/
 @media (max-width:600px) {
-  main {
-    margin-top: 300px;
+  header .container {
+    margin-top: 120px;
   }
   header ul {
     flex-wrap: wrap;
